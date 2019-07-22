@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-22T22:01:16.903Z",
+        "line": 6,
+        "name": "Login",
+        "description": "",
+        "id": "testmeapp;login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6352760139,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch the Webbrowser and load TestMe Url",
+            "match": {
+              "location": "casestudy2.launch_the_Webbrowser_and_load_TestMe_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 403281907,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on SignIn",
+            "match": {
+              "location": "casestudy2.click_on_SignIn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 246923357,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter the data",
+            "match": {
+              "location": "casestudy2.enter_the_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "Password"
+                ]
+              },
+              {
+                "cells": [
+                  "AlexUser",
+                  "Alex@123"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 239595431,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on Login button",
+            "match": {
+              "location": "casestudy2.click_on_Login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TestMeApp",
+    "description": "",
+    "id": "testmeapp",
+    "keyword": "Feature",
+    "uri": "classpath:CaseStudy06/CaseStudy06/case02.feature",
+    "tags": []
+  }
+]
